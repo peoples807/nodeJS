@@ -10,7 +10,7 @@ fs.readFile("C:\\Users\\ChidiIfediora\\Dev\\Data\\stockquote_json.txt", options,
     if(targetChar == null)
         console.log("Character not found.");
     else
-        console.log(targetChar.length + " occurences were found.");
+        console.log(targetChar.length + " occurence(s) were found.");
 })
 
 console.log("Does this come first?");

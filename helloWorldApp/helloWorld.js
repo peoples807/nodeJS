@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(req, resp){
     console.log("Request received! This is a request for "+req.url);
     resp.writeHead(200,{"Content-Type":"text/plain"});
-    resp.end("What's up?");
+    resp.end("What's up?!");
 });
 
 server.listen(3000);
