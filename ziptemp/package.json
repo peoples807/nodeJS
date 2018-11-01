@@ -1,0 +1,21 @@
+{
+  "name": "ziptemp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DARKSKY_API_KEY='2ecd3f1a026046ab93f694b643d85d11' nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "dark-sky": "^1.1.4",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "forecast.io": "0.0.11",
+    "forecastio": "^2.0.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "zippity-do-dah": "0.0.3"
+  }
+}
