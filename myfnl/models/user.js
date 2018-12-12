@@ -18,9 +18,11 @@ var noop = function(){};
 
 userSchema.pre("save", function(done){
     var user = this;
+
     if(!user.isModified("password")){
         return done();
     }
+    
     bcrypt.genSalt(SALT_FACTOR, function(err, salt){
         if(err){
             return done(err);
