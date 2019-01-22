@@ -14,8 +14,8 @@ router.get('/', function(req, res, next) {
   }else if (residentName == 'Chidi'){
     res.render('users', { 
       title: 'Users', 
-      message: 'Chidi, B8 F2 Femi Okunnu 3,0809 944 4270', 
-      prompt: 'Message'});
+      message: 'B8 F2 Femi Okunnu 3,0809 944 4270', 
+      prompt: 'Chidi'});
   }else{
     res.render('users', { 
       title: 'Users', 
